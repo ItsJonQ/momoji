@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c-Container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.c-Emoji {
+  position: relative;
+  height: 32px;
+  width: 32px;
+  margin: auto;
+}
+.c-Emoji__small {
+  bottom: -4px;
+  height: 16px;
+  position: absolute;
+  width: 16px;
+  z-index: 1;
+}
+.c-Emoji__small.is-left {
+  left: -8px;
+}
+.c-Emoji__small.is-right {
+  right: -8px;
+}
+
+.c-Title {
+  margin-top: 12px;
+  text-transform: capitalize;
+}

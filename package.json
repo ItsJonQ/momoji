@@ -1,0 +1,14 @@
+{
+  "name": "momoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ItsJonQ <itsjonq@gmail.com> (http://jonquach.com)",
+  "license": "MIT",
+  "dependencies": {
+    "emoji-datasource-apple": "3.0.0"
+  }
+}
